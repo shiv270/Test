@@ -1,71 +1,65 @@
-
-
-* {
-  font-family: 'Roboto';
-  font-weight: 100;
-}
-
-body {
-  display: flex;
-  margin-top: 10%;
-  font-size: 2em;
-  background-color:black;
-}
-.head{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;  
-  width: 300px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-
-}
-.result-area {
-  width: 100%;
-  background-color: rgb(38, 38, 38);
-  color: white;
+.calc {
+    height: 511px;
+    width: 408px;
+    background-color: #808080 ;
+    text-align: center;
+  }
+  #zero {
+    height: 100px;
+    background-color: #2D2D36 ;
+    color: white;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
   
-}
-.result-area  p {
-  padding-top: 45px ;
-  padding-right: 10px;
-  text-align: right;
-  line-height: 30px;
-  border-radius: 5px;
-  font-size: 52px;
-  margin-bottom: 10px;
-}
-span {
-  box-sizing: border-box;
-  text-align: center;
-  cursor: pointer;
-  width: 25%;
-  background-color: rgb(142, 142, 142);
-  line-height: 50px;
-  border-top: 1px solid rgb(0, 0, 0);
-  border-left: 1px solid rgb(0, 0, 0);;
-}
-.operator {
-  background-color: #f08c00;
-  color: white;
-}
-.double {
-  width: 50%;
-}
-.grey {
-  background-color: rgb(92, 92, 92);
-}
-
-#top-left-area{
-    display: flex;
-    padding: 5px;
-}
-
-.close, .minimize, .maximize{
-    width: 15px;
-    height: 15px;
-    background-color: rgb(148, 148, 148);
-    border-radius: 50%;
-    margin-left: 5px;
-    cursor: pointer;
-}
+  }
+  .float_left1 {
+      border: 1px solid black;
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: #414149  !important;
+    font-size: 40px;
+    color: white;
+  
+  }
+  .float_left2 {
+      border: 1px solid black;
+    float: left;
+    width: 100px;
+    height: 80px;
+    color: white;
+  
+    font-size: 40px;
+  }
+  .float_left3 {
+      border: 1px solid black;
+    float: left;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    height: 80px;
+  }
+  #acac1 {
+    width: 202px;
+  }
+  
+  #lower {
+    text-align-last: end;
+    font-size: 80px;
+    /* padding: 13px; */
+    margin-right: 33px;
+  }
+  .yellow{
+      background-color: #FF8C00 !important;
+  }
+  .light{
+      background-color: #616269 !important;
+  }
+  li{
+      float: left;
+      list-style-position: inside;
+      list-style-type: disc;
+      margin-right: -41px;
+      font-size: 50px;
+      color: grey;
+  }
