@@ -1,0 +1,71 @@
+
+
+* {
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+
+body {
+  display: flex;
+  margin-top: 10%;
+  font-size: 2em;
+  background-color:black;
+}
+.head{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  width: 300px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+
+}
+.result-area {
+  width: 100%;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  
+}
+.result-area  p {
+  padding-top: 45px ;
+  padding-right: 10px;
+  text-align: right;
+  line-height: 30px;
+  border-radius: 5px;
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+span {
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  width: 25%;
+  background-color: rgb(142, 142, 142);
+  line-height: 50px;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);;
+}
+.operator {
+  background-color: #f08c00;
+  color: white;
+}
+.double {
+  width: 50%;
+}
+.grey {
+  background-color: rgb(92, 92, 92);
+}
+
+#top-left-area{
+    display: flex;
+    padding: 5px;
+}
+
+.close, .minimize, .maximize{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
